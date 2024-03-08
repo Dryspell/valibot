@@ -31,7 +31,7 @@ export interface PicklistSchemaAsync<
  *
  * @returns An async picklist schema.
  */
-export function picklistAsync<const TOptions extends PicklistOptions>(
+export function picklistAsync<TOptions extends PicklistOptions>(
   options: TOptions,
   message?: ErrorMessage
 ): PicklistSchemaAsync<TOptions> {
