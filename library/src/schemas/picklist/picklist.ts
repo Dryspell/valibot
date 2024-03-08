@@ -31,7 +31,7 @@ export interface PicklistSchema<
  *
  * @returns A picklist schema.
  */
-export function picklist<const TOptions extends PicklistOptions>(
+export function picklist<TOptions extends PicklistOptions>(
   options: TOptions,
   message?: ErrorMessage
 ): PicklistSchema<TOptions> {
